@@ -1,0 +1,14 @@
+def main():
+
+    num_1 = int(input('Escoge un numero entero: '))
+    num_2 = int(input('Escoge otro numero: '))
+    if num_1 > num_2:
+        print(f'El número {num_1} es mayor que el número {num_2}')
+    elif num_2 > num_1:
+        print(f'El número {num_2} es mayor que el número {num_1}')
+    else:
+        print('Los numeros son iguales')
+
+
+if __name__ == '__main__':
+    main()
